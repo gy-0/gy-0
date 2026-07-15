@@ -29,10 +29,8 @@ Scalable business models, not time-for-money work. Asymmetric bets — small dow
 
 ---
 
-<!-- The official github-readme-stats.vercel.app instance is DEPLOYMENT_PAUSED (503).
-     Using a community mirror below. For long-term reliability, self-host your own
-     Vercel instance: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own -->
+<!-- Self-hosted github-readme-stats instance (Vercel project: github-readme-stats, repo: gy-0/github-readme-stats) -->
 <p align="left">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=gy-0&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true" height="140" alt="GitHub stats" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gy-0&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="140" alt="Top languages" />
+  <img src="https://github-readme-stats-realgaoyuans-projects.vercel.app/api?username=gy-0&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true" height="140" alt="GitHub stats" />
+  <img src="https://github-readme-stats-realgaoyuans-projects.vercel.app/api/top-langs/?username=gy-0&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="140" alt="Top languages" />
 </p>

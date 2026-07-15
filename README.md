@@ -25,9 +25,7 @@ What I’m hunting for:
 ### Open source
 
 #### [CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)
-WeChat chat archive product · Electron · TypeScript · **1.1k+ ★**
-
-I use it heavily, so I fixed pain I actually hit — and got merged upstream:
+WeChat chat archive product · Electron · TypeScript · **1.2k+ ★**
 
 | PR | Why it mattered |
 | --- | --- |

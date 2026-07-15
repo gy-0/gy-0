@@ -66,8 +66,7 @@ and more interested in **owning the upside of things that scale**.
 
 ### Currently
 
-- Running personal product bets and market experiments  
-- Contributing to [CipherTalk](https://github.com/ILoveBingLu/CipherTalk) as a power user who ships fixes  
+- Running personal product bets and market experiments    
 - Looking for **business models that scale**, not more hours on a W-2  
 
 ---
@@ -79,4 +78,4 @@ and more interested in **owning the upside of things that scale**.
 
 ---
 
-*Think different. Own the upside.*
+*Think different.*

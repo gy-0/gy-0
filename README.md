@@ -1,74 +1,78 @@
 # Yuan · gy-0
 
-**Software engineer** · McMaster University M.Eng. (CAS) · Building desktop & AI tooling
+**Builder · operator · bet-maker**  
+McMaster M.Eng. (CAS) · Hamilton, ON
 
-Hamilton, ON · [github.com/gy-0](https://github.com/gy-0)
-
----
-
-### About
-
-I work across **desktop apps, TypeScript/React, and AI-assisted product surfaces**.  
-I care about shipping things people actually use — debugging hard edge cases, tightening auth/UX, and keeping local pipelines honest.
-
-Currently exploring **OCR → LLM → image generation** systems, media transcription, and contributions to open-source tools I rely on every day.
+I don’t optimize for a job title. I build products, systems, and experiments — looking for **scalable businesses** that can leverage capital, compute, distribution, and people.
 
 ---
 
-### Open source
+### What I’m doing
+
+I’m in a **YOLO / founder mode**: ship, test markets, kill weak ideas fast, double down when something compounds.
+
+Code is a **lever**, not the identity.  
+GitHub is where the levers show up — tools, pipelines, and open-source contributions that prove I can turn ideas into working products.
+
+What I’m hunting for:
+
+- **Scalable models** — not pure time-for-money consulting
+- **Leverage** — compute, software, distribution, capital, and human networks
+- **Asymmetric bets** — small downside to try, large upside if right
+- **Real demand** — things people already pay for or fight to use
+
+---
+
+### Open source (signal, not résumé padding)
 
 #### [CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)
-WeChat chat archive viewer · Electron · TypeScript · **1.1k+ ★**
+WeChat chat archive product · Electron · TypeScript · **1.1k+ ★**
 
-Merged contributions (2026):
+I use it heavily, so I fixed pain I actually hit — and got merged upstream:
 
-| PR | Impact |
+| PR | Why it mattered |
 | --- | --- |
-| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) · OpenRouter connection test | Fixed false “connection success” when API keys were invalid — `/models` is unauthenticated on OpenRouter, so tests looked green until chat failed with 401 |
-| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) · STT transcript cache | Fixed cache path split that re-ran cloud speech recognition on “re-clone”, burning ASR quota for already-transcribed voice messages |
+| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | OpenRouter “test connection” looked successful with bad API keys → users only failed at chat time |
+| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split → re-clone re-transcribed old voice messages and burned ASR quota |
 
-Also authored the upstream issue: [#249](https://github.com/ILoveBingLu/CipherTalk/issues/249)
+Issue: [#249](https://github.com/ILoveBingLu/CipherTalk/issues/249)
 
-> Contributor on a project I use daily — still actively following `main` and planning more fixes.
+> Long-term contributor posture on tools I depend on — not drive-by vanity PRs.
 
 ---
 
-### Selected projects
+### Things I’ve built (experiments & product muscle)
 
-| Project | What it is |
+| Project | Angle |
 | --- | --- |
-| **[Imagio](https://github.com/gy-0/Imagio)** | macOS desktop app (Tauri 2 + React + Rust): image → OCR → LLM prompt refine → text-to-image. Built for my M.Eng. report *Optical Character Recognition to Image Generation*. |
-| **[ScribeStudio](https://github.com/gy-0/ScribeStudio)** | Desktop media transcription workbench — local audio/video, ASR, timeline segments, export to SRT / VTT / Markdown. |
-| **[ElmoChatProxy](https://github.com/gy-0/ElmoChatProxy)** | OpenAI-compatible proxy for Elmo Chat — streaming, multi-turn, Vercel-ready. |
+| **[Imagio](https://github.com/gy-0/Imagio)** | Desktop pipeline: image → OCR → prompt refine → generation. Productized research (M.Eng.): inspectable multi-step AI workflow, not a demo notebook. |
+| **[ScribeStudio](https://github.com/gy-0/ScribeStudio)** | Media → transcript / captions / timeline. Creator & ops workflow product shape. |
+| **[ElmoChatProxy](https://github.com/gy-0/ElmoChatProxy)** | OpenAI-compatible proxy layer — glue infrastructure so models plug into existing tools. |
+
+These are **proof of execution**: I can take fuzzy ideas to desktop apps, APIs, and end-to-end flows.
 
 ---
 
-### Stack
+### How I think about leverage
 
 ```text
-Languages   TypeScript · JavaScript · Python · Rust · Java · Swift
-Frontend    React · Vite · Next.js · Tauri WebView
-Desktop     Electron · Tauri 2
-Backend     Node.js · OpenAI-compatible APIs · serverless
-Data / AI   OCR (Tesseract) · ASR · LLM tooling · local + cloud pipelines
-Tooling     Git · GitHub · npm · macOS native packaging
+Software     compress labor into reusable product
+Compute      scale intelligence & automation without headcount
+Distribution own or ride channels that already have demand
+People       design systems others can operate / sell / support
+Capital      put money where unit economics can compound
 ```
 
----
-
-### Focus areas
-
-- **Desktop product engineering** — packaging, native bridges, real-user workflows  
-- **AI integration that fails loudly** — correct auth checks, cache correctness, cost control  
-- **Inspectable pipelines** — OCR / ASR / generation steps users can see and fix  
+I’m less interested in “being a great employee engineer”  
+and more interested in **owning the upside of things that scale**.
 
 ---
 
 ### Currently
 
-- Shipping and refining personal desktop tools (Imagio, ScribeStudio)  
-- Long-term contributor mindset on [CipherTalk](https://github.com/ILoveBingLu/CipherTalk)  
-- Always open to sharp bug reports and small, high-signal PRs  
+- Running personal product bets and market experiments  
+- Contributing to [CipherTalk](https://github.com/ILoveBingLu/CipherTalk) as a power user who ships fixes  
+- Looking for **business models that scale**, not more hours on a W-2  
 
 ---
 
@@ -79,4 +83,4 @@ Tooling     Git · GitHub · npm · macOS native packaging
 
 ---
 
-*Think different. Ship carefully.*
+*Think different. Own the upside.*

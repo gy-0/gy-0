@@ -1,7 +1,6 @@
 # Yuan · gy-0
 
 **Builder · operator · bet-maker**  
-McMaster M.Eng. (CAS) · Hamilton, ON
 
 I don’t optimize for a job title. I build products, systems, and experiments — looking for **scalable businesses** that can leverage capital, compute, distribution, and people.
 
@@ -23,7 +22,7 @@ What I’m hunting for:
 
 ---
 
-### Open source (signal, not résumé padding)
+### Open source
 
 #### [CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)
 WeChat chat archive product · Electron · TypeScript · **1.1k+ ★**

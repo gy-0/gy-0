@@ -34,9 +34,6 @@ I use it heavily, so I fixed pain I actually hit — and got merged upstream:
 | [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | OpenRouter “test connection” looked successful with bad API keys → users only failed at chat time |
 | [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split → re-clone re-transcribed old voice messages and burned ASR quota |
 
-Issue: [#249](https://github.com/ILoveBingLu/CipherTalk/issues/249)
-
-> Long-term contributor posture on tools I depend on — not drive-by vanity PRs.
 
 ---
 

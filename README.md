@@ -1,4 +1,4 @@
-# Yuan · gy-0
+# Hi, I'm Yuan
 
 Builder & operator. I ship products, test markets, kill weak ideas fast, and double down on what compounds.
 

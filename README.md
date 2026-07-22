@@ -29,6 +29,8 @@ Scalable business models, not time-for-money work. Asymmetric bets — small dow
 
 ---
 
+[![Tokens Stats](https://tokens.ci/api/embed/gy-0/svg?template=minimal&color=halloween&today=1&tokens=compact&cost=full)](https://tokens.ci/u/gy-0)
+
 <!-- Self-hosted github-readme-stats instance (Vercel project: github-readme-stats, repo: gy-0/github-readme-stats) -->
 <p align="left">
   <img src="https://github-readme-stats-realgaoyuans-projects.vercel.app/api?username=gy-0&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true" height="140" alt="GitHub stats" />

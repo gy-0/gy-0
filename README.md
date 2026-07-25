@@ -8,7 +8,7 @@ Code is leverage, not identity — GitHub is where the leverage shows up: tools,
 
 ### Open source contribution
 
-**[CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)** — WeChat chat-archive product · Electron · TypeScript · 1.1k+ ★
+**[CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)** — WeChat chat-archive product · Electron · TypeScript · 1.4k+ ★
 
 | Merged PR | What it fixed |
 | --- | --- |

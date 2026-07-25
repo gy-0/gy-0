@@ -2,8 +2,6 @@
 
 Builder & operator. I ship products, test markets, kill weak ideas fast, and double down on what compounds.
 
-Code is leverage, not identity — GitHub is where the leverage shows up: tools, pipelines, and open-source work that turn fuzzy ideas into working products.
-
 ---
 
 ### Open source contribution

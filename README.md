@@ -10,8 +10,12 @@ Builder & operator. I ship products, test markets, kill weak ideas fast, and dou
 
 | Merged PR | What it fixed |
 | --- | --- |
-| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | "Test connection" passed even with invalid OpenRouter API keys, so users only hit the failure at chat time |
+| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent 思考链折叠时机与消息字号优化，支持 ⌘, 打开设置 |
+| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Agent 输入栏图标按钮尺寸统一 |
 | [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split — re-cloning re-transcribed old voice messages and burned ASR quota |
+| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | "Test connection" passed even with invalid OpenRouter API keys, so users only hit the failure at chat time |
+
+In review: [#321](https://github.com/ILoveBingLu/CipherTalk/pull/321) auth timing attack + dep upgrade · [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) skill import cross-device EXDEV · [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) official-account messages blank · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) godmode curly-quote refusal detection
 
 ### Projects
 

@@ -6,12 +6,12 @@ Builder & operator. I ship products, test markets, kill weak ideas fast, and dou
 
 ### Open source contribution
 
-**[CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)** — WeChat chat-archive product · Electron · TypeScript · 1.4k+ ★
+**[CipherTalk / 密语](https://github.com/ILoveBingLu/CipherTalk)** — WeChat chat-archive product · Electron · TypeScript · 1.7k+ ★
 
 | Merged PR | What it fixed |
 | --- | --- |
-| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent 思考链折叠时机与消息字号优化，支持 ⌘, 打开设置 |
-| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Agent 输入栏图标按钮尺寸统一 |
+| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent thought-chain collapse timing & message font-size polish, ⌘, opens settings |
+| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Unified Agent input-bar icon button sizes |
 | [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split — re-cloning re-transcribed old voice messages and burned ASR quota |
 | [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | "Test connection" passed even with invalid OpenRouter API keys, so users only hit the failure at chat time |
 

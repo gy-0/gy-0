@@ -10,14 +10,14 @@ Builder & operator. I ship products, test markets, kill weak ideas fast, and dou
 
 | Merged PR | What it fixed |
 | --- | --- |
-| [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) | Silent data-loss bug: official-account archives (`biz_message_*.db`) were excluded from the message-library scan — history rendered blank |
-| [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) | Cross-filesystem import crash: `rename()` across device boundaries (EXDEV) — added atomic cross-device move path |
-| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent streaming UX: reworked thought-chain disclosure timing & rendering hierarchy, ⌘, opens settings |
-| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Interaction-surface consistency: standardized agent composer icon-button sizing & alignment |
-| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | ASR cost leak: stale cache keying re-transcribed archived voice messages after re-clone, silently burning paid quota |
-| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | Fail-fast credential validation: invalid OpenRouter keys rejected at connection test instead of exploding at first chat |
+| [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) | Resolved silent data loss in archive message indexing |
+| [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) | Hardened cross-filesystem import reliability |
+| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Redesigned agent thought-chain UX & keyboard-first interaction |
+| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Standardized interaction consistency across the agent composer |
+| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | Eliminated recurring ASR cost leaks from stale transcription caching |
+| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | Fail-fast API credential validation — catch misconfigurations before users do |
 
-In review: [#328](https://github.com/ILoveBingLu/CipherTalk/pull/328) timing-safe password verification (CWE-208) · [#329](https://github.com/ILoveBingLu/CipherTalk/pull/329) native security upgrade — sherpa-onnx-node 1.13.4 (TopkIndex heap-buffer-overflow) · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) jailbreak-refusal detection hardening (unicode quote normalization)
+In review: [#328](https://github.com/ILoveBingLu/CipherTalk/pull/328) timing-safe password verification · [#329](https://github.com/ILoveBingLu/CipherTalk/pull/329) native security upgrade (buffer-overflow fix) · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) jailbreak-refusal detection hardening
 
 ### Projects
 

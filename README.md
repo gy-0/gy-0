@@ -10,12 +10,14 @@ Builder & operator. I ship products, test markets, kill weak ideas fast, and dou
 
 | Merged PR | What it fixed |
 | --- | --- |
+| [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) | Official-account messages rendered blank because the message-library scan missed `biz_message_*.db` |
+| [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) | Skill import across drives failed with EXDEV (`rename` across filesystems) |
 | [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent thought-chain collapse timing & message font-size polish, ⌘, opens settings |
 | [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Unified Agent input-bar icon button sizes |
 | [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split — re-cloning re-transcribed old voice messages and burned ASR quota |
 | [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | "Test connection" passed even with invalid OpenRouter API keys, so users only hit the failure at chat time |
 
-In review: [#321](https://github.com/ILoveBingLu/CipherTalk/pull/321) auth timing attack + dep upgrade · [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) skill import cross-device EXDEV · [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) official-account messages blank · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) godmode curly-quote refusal detection
+In review: [#328](https://github.com/ILoveBingLu/CipherTalk/pull/328) constant-time password comparison · [#329](https://github.com/ILoveBingLu/CipherTalk/pull/329) sherpa-onnx-node 1.13.4 (TopkIndex buffer-overflow fix) · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) godmode curly-quote refusal detection
 
 ### Projects
 

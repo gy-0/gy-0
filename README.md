@@ -10,14 +10,14 @@ Builder & operator. I ship products, test markets, kill weak ideas fast, and dou
 
 | Merged PR | What it fixed |
 | --- | --- |
-| [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) | Official-account messages rendered blank because the message-library scan missed `biz_message_*.db` |
-| [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) | Skill import across drives failed with EXDEV (`rename` across filesystems) |
-| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent thought-chain collapse timing & message font-size polish, ⌘, opens settings |
-| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Unified Agent input-bar icon button sizes |
-| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | STT cache path split — re-cloning re-transcribed old voice messages and burned ASR quota |
-| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | "Test connection" passed even with invalid OpenRouter API keys, so users only hit the failure at chat time |
+| [#324](https://github.com/ILoveBingLu/CipherTalk/pull/324) | Silent data-loss bug: official-account archives (`biz_message_*.db`) were excluded from the message-library scan — history rendered blank |
+| [#322](https://github.com/ILoveBingLu/CipherTalk/pull/322) | Cross-filesystem import crash: `rename()` across device boundaries (EXDEV) — added atomic cross-device move path |
+| [#284](https://github.com/ILoveBingLu/CipherTalk/pull/284) | Agent streaming UX: reworked thought-chain disclosure timing & rendering hierarchy, ⌘, opens settings |
+| [#263](https://github.com/ILoveBingLu/CipherTalk/pull/263) | Interaction-surface consistency: standardized agent composer icon-button sizing & alignment |
+| [#253](https://github.com/ILoveBingLu/CipherTalk/pull/253) | ASR cost leak: stale cache keying re-transcribed archived voice messages after re-clone, silently burning paid quota |
+| [#250](https://github.com/ILoveBingLu/CipherTalk/pull/250) | Fail-fast credential validation: invalid OpenRouter keys rejected at connection test instead of exploding at first chat |
 
-In review: [#328](https://github.com/ILoveBingLu/CipherTalk/pull/328) constant-time password comparison · [#329](https://github.com/ILoveBingLu/CipherTalk/pull/329) sherpa-onnx-node 1.13.4 (TopkIndex buffer-overflow fix) · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) godmode curly-quote refusal detection
+In review: [#328](https://github.com/ILoveBingLu/CipherTalk/pull/328) timing-safe password verification (CWE-208) · [#329](https://github.com/ILoveBingLu/CipherTalk/pull/329) native security upgrade — sherpa-onnx-node 1.13.4 (TopkIndex heap-buffer-overflow) · [hermes-agent #79337](https://github.com/NousResearch/hermes-agent/pull/79337) jailbreak-refusal detection hardening (unicode quote normalization)
 
 ### Projects
 
